@@ -1,0 +1,43 @@
+ng new My_New_Project --style=scss --routing 安裝新環境並使用 scss 與 routing
+
+
+npm install --save @angular/material@latest @angular/cdk @angular/animations@latest @angular-devkit/schematics@latest hammerjs 安裝其他應用
+
+npm install --s angular-in-memory-web-api@"^0.1.17"
+angular-tree-component@^3.2.3
+解angular 錯誤套件
+getting TypeError: (void 0) is not a function 
+
+ng build -w 監控執行打包直令
+
+
+
+
+
+
+animation import
+
+app.module.ts
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+子物件module
+import { trigger,style,transition,animate,keyframes,quert,stagger} from '@angular/animations';
+
+---------------------
+Form
+import { FormsModule } from '@angular/forms';
+
+
+
+
+Service
+$ ng generate service data
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+
+
+"editor.quickSuggestions": false,
+"editor.parameterHints": false,
+"editor.suggestOnTriggerCharacters": false,
+"editor.wordBasedSuggestions": false,
+"css.validate": false,
+"window.zoomLevel":0
